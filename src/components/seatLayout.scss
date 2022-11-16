@@ -1,0 +1,33 @@
+.seatCard {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.seatCardLeft {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.seatCardRight {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.btn-card {
+  background-color: blue;
+}
+
+.bookedSeat {
+  background-color: gray;
+  pointer-events: none;
+}
+
+.screen {
+  height: 3rem;
+  font-size: 1rem;
+  margin: 4% 0%;
+  padding-top: 3%;
+  background-color: lightblue;
+  border: 0.5px solid gray;
+  text-align: center;
+}
